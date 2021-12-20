@@ -1,2 +1,4 @@
 This can be used to spin up a simple websokcet server.
 
+docker build -t simple-wss-server .
+docker run -d -p 6363:6363 --name simple-wss-server simple-wss-server
